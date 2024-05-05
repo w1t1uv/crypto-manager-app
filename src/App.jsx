@@ -1,5 +1,5 @@
-import { CryptoContextProvider } from './context/crypto-context';
-import AppLayout from './components/layout/AppLayout';
+import { CryptoContextProvider } from './context/crypto-context.jsx';
+import AppLayout from './components/layout/AppLayout.jsx';
 
 export default function App() {
   return (
