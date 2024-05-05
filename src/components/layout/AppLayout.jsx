@@ -2,7 +2,7 @@ import AppHeader from './AppHeader';
 import AppSider from './AppSider';
 import AppContent from './AppContent';
 import { useContext } from 'react';
-import CryptoContext from '../../context/crypto-context';
+import CryptoContext from '../../context/crypto-context.jsx';
 import { Layout, Spin } from 'antd';
 
 export default function AppLayout() {
